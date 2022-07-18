@@ -1,0 +1,45 @@
+.background03 {
+    width: 368px;
+    height: 796px;
+    background-color: #fde7e2;
+    display: grid;
+    grid-template-rows: 70px 20px 686px 20px;
+    justify-items: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.header03 {
+    width: 368px;
+    height: 70px;
+    background-color: #fff9f4;
+    display: grid;
+    grid-template-columns: 294px 74px;
+    justify-items: center;
+    align-items: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.title03 {
+    margin-left: 80px;
+    color: #dd9292;
+}
+
+.doneBtn03 {
+    width: 55px;
+    height: 35px;
+    background-color: #dd9292;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.letterCon03 {
+    width: 308px;
+    height: 656px;
+    background-color: #fff9f4;
+    grid-row: 3/ 4;
+    border-radius: 20px;
+}

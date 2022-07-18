@@ -1,0 +1,109 @@
+.container {
+    background-color: #fde7e2;
+    width: 368px;
+    height: 796px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.flowerCon {
+    width: 368px;
+    height: 368px;
+    display: grid;
+    grid-template-columns: 144px 30px 20px 30px 144px;
+    grid-template-rows: 144px 30px 20px 30px 144px;
+    justify-items: center;
+    align-items: center;
+    animation: rotate_flower 5s linear infinite;
+}
+
+@keyframes rotate_flower {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.core {
+    background-color: #ffe164;
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    grid-column: 3/ 4;
+    grid-row: 3/ 4;
+    z-index: 1;
+    transition: 0.5s;
+}
+
+.core.disappear {
+    opacity: 0;
+    transform: rotate(360deg);
+}
+
+.topL {
+    background-color: #f18c93;
+    width: 35px;
+    height: 35px;
+    grid-column: 3/ 4;
+    grid-row: 2/ 3;
+    border-top-left-radius: 17px;
+    border-top-right-radius: 17px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    transition: 1s;
+}
+
+.topL.active {
+    transform: translateX(0px) translateY(-500px);
+}
+
+.bottomL {
+    background-color: #f18c93;
+    width: 35px;
+    height: 35px;
+    grid-column: 3/ 4;
+    grid-row: 4/ 5;
+    border-bottom-left-radius: 17px;
+    border-bottom-right-radius: 17px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    transition: 1s;
+}
+
+.bottomL.active {
+    transform: translateX(0px) translateY(500px);
+}
+
+.leftL {
+    background-color: #f18c93;
+    width: 35px;
+    height: 35px;
+    grid-column: 2/ 3;
+    grid-row: 3/ 4;
+    border-top-left-radius: 17px;
+    border-bottom-left-radius: 17px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    transition: 1s;
+}
+
+.leftL.active {
+    transform: translateX(-500px) translateY(0px);
+}
+
+.rightL {
+    background-color: #f18c93;
+    width: 35px;
+    height: 35px;
+    grid-column: 4/ 5;
+    grid-row: 3/ 4;
+    border-top-right-radius: 17px;
+    border-bottom-right-radius: 17px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    transition: 1s;
+}
+
+.rightL.active {
+    transform: translateX(500px) translateY(0px);
+}
