@@ -1,0 +1,29 @@
+.background23 {
+    width: 368px;
+    height: 796px;
+    background-color: #fde7e2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    flex-direction: column;
+}
+.circle23 {
+    width: 164px;
+    height: 164px;
+    background-color: #fefaf0;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pinkSpan23 {
+    color: #dd9292;
+    font-size: larger;
+    font-weight: bolder;
+    margin-top: 30px;
+}
+.leaf {
+    width: 100px;
+    height: 100px;
+}

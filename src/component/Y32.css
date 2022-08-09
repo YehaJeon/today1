@@ -1,0 +1,231 @@
+.background32 {
+    width: 368px;
+    height: 796px;
+    background-color: #e2b7b4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.modal32 {
+    margin: 0;
+    padding: 0%;
+    width: 298px;
+    height: 794px;
+    background-color: #fff9f4;
+    border-radius: 20px;
+    margin-left: 67px;
+    box-shadow: -2px 1px 3px 1px #b7908f;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.arrow321 {
+    position: absolute;
+    transform: rotate(45deg);
+    top: 25px;
+    background-color: #dd9292;
+    height: 18px;
+    width: 5px;
+    border-radius: 3px;
+    left: 270px;
+}
+
+.arrow322 {
+    position: absolute;
+    transform: rotate(-45deg);
+    top: 14px;
+    background-color: #dd9292;
+    height: 18px;
+    width: 5px;
+    border-radius: 3px;
+    left: 270px;
+}
+
+.line321 {
+    position: absolute;
+    width: 260px;
+    height: 2px;
+    background-color: #e3dbdb;
+    top: 60px;
+}
+.line322 {
+    width: 260px;
+    height: 2px;
+    background-color: #e3dbdb;
+    position: absolute;
+    top: 590px;
+    right: 0px;
+}
+.username32 {
+    display: inline;
+    width: 60px;
+    height: 40px;
+    position: absolute;
+    top: 80px;
+    left: 90px;
+    z-index: 3;
+    color: #5e452a;
+}
+.addVaseBtn32 {
+    width: 65px;
+    height: 25px;
+    position: absolute;
+    top: 95px;
+    left: 210px;
+    border: 0;
+    background-color: #c9986b;
+    border-radius: 3px;
+    font-family: 'round';
+}
+.nav32 {
+    width: 60px;
+    height: 300px;
+    position: relative;
+    top: 80px;
+    right: 5px;
+}
+.profile32 {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #dd9292;
+    position: absolute;
+    z-index: 2;
+}
+.bar32 {
+    position: absolute;
+    width: 5px;
+    height: 600px;
+    background-color: #c9986b;
+    z-index: 1;
+    left: 16px;
+    top: 5px;
+}
+.flower321 {
+    width: 40px;
+    position: absolute;
+    top: 80px;
+    z-index: 2;
+    right: 23px;
+}
+.flower322 {
+    width: 40px;
+    position: absolute;
+    top: 140px;
+    z-index: 2;
+    right: 23px;
+}
+.flower323 {
+    width: 40px;
+    position: absolute;
+    top: 210px;
+    z-index: 2;
+    right: 23px;
+}
+.flower324 {
+    width: 40px;
+    position: absolute;
+    top: 280px;
+    z-index: 2;
+    right: 23px;
+}
+.flower325 {
+    width: 40px;
+    position: absolute;
+    top: 350px;
+    z-index: 2;
+    right: 23px;
+}
+.container32 {
+    width: 200px;
+    height: 600px;
+    position: relative;
+    top: 150px;
+}
+.ownerDay32 {
+    font-size: small;
+    margin-top: -8px;
+    color: #5e452a;
+}
+.vaseOwner32 {
+    color: #5e452a;
+}
+
+.editBtn32 {
+    width: 30px;
+    height: 30px;
+    background-color: #dd9292;
+    position: absolute;
+    left: 130px;
+    transform: translateY(-60px);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.editBtnImg32 {
+    width: 20px;
+    height: 20px;
+}
+.deleteBtnImg32 {
+    width: 20px;
+    height: 20px;
+}
+.deleteBtn32 {
+    width: 30px;
+    height: 30px;
+    background-color: #dd9292;
+    position: absolute;
+    left: 170px;
+    transform: translateY(-60px);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box32 {
+    width: 400px;
+    height: 50px;
+}
+.bottomBtn32 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 0;
+    background-color: #5e452a;
+}
+/* #listBtn32 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+/* #questionBtn32 {
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+/* #logoutBtn32 {
+    background-color: #fff9f4;
+    border: 0;
+    width: 50px;
+} */
+.bottomBtnContainer32 {
+    position: relative;
+    top: 270px;
+    left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bottomBtnImg32 {
+    width: 15px;
+}
+/* #logoutBtnImg32 {
+    width: 25px;
+} */
+/* @font-face {
+    font-family: 'round';
+    /* src: url('src/TmoneyRoundWindExtraBold.ttf'); */

@@ -1,0 +1,136 @@
+.background061 {
+    width: 368px;
+    height: 796px;
+    background-color: #fde7e2;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.letterdiv061 {
+    width: 368px;
+    height: 796px;
+    background-color: #e2b7b4;
+    display: grid;
+    grid-template-columns: 50px 268px 50px;
+    grid-template-rows: 60px 676px 60px;
+    justify-items: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.xbtn061 {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    grid-column: 3/ 4;
+    grid-row: 1/ 2;
+}
+
+.xline1061 {
+    width: 40px;
+    height: 5px;
+    background-color: #f5ebe2;
+    border-radius: 10px;
+    transform: translateY(13px) rotate(45deg);
+}
+
+.xline2061 {
+    width: 40px;
+    height: 5px;
+    background-color: #f5ebe2;
+    border-radius: 10px;
+    transform: translateY(-13px) rotate(-45deg);
+}
+
+.leftBtn061 {
+    width: 30px;
+    height: 50px;
+    grid-column: 1/ 2;
+    grid-row: 2/ 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.leftline1061 {
+    width: 30px;
+    height: 8px;
+    background-color: #dd9292;
+    border-radius: 15px;
+    transform: rotate(-45deg) translateX(4px) translateY(-3px);
+}
+
+.leftline2061 {
+    width: 30px;
+    height: 8px;
+    background-color: #dd9292;
+    border-radius: 15px;
+    transform: rotate(45deg) translateX(4px) translateY(3px);
+}
+
+.rightBtn061 {
+    width: 30px;
+    height: 50px;
+    grid-column: 3/ 4;
+    grid-row: 2/ 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.rightline1061 {
+    width: 30px;
+    height: 8px;
+    background-color: #dd9292;
+    border-radius: 15px;
+    transform: rotate(45deg) translateX(-4px) translateY(-3px);
+}
+
+.rightline2061 {
+    width: 30px;
+    height: 8px;
+    background-color: #dd9292;
+    border-radius: 15px;
+    transform: rotate(-45deg) translateX(-4px) translateY(3px);
+}
+
+.letterbox061 {
+    width: 267px;
+    height: 280px;
+    background-color: #fff9f4;
+    grid-column: 2/ 3;
+    grid-row: 2/ 3;
+    border-radius: 20px;
+    border: none;
+    resize: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.count061 {
+    margin-top: 4px;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+.note061 {
+    width: 239px;
+    height: 260px;
+    background-color: #fff9f4;
+    border: none;
+    resize: none;
+    padding: 0;
+}
+
+.note061::-webkit-scrollbar {
+    display: none;
+}

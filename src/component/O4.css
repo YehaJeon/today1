@@ -1,0 +1,201 @@
+.background04 {
+    width: 368px;
+    height: 796px;
+    background-color: #fde7e2;
+    display: grid;
+    grid-template-columns: 70px 228px 70px;
+    grid-template-rows: 70px 626px 100px;
+    justify-items: center;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.background04.active {
+    background-color: #e2b7b4;
+}
+
+.hamburgerBtn04 {
+    grid-column: 3/ 4;
+    grid-row: 1/ 2;
+    height: 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    transition: 0.5s;
+    z-index: 3;
+    cursor: pointer;
+}
+.high04 {
+    background-color: #dd9292;
+    width: 39.24px;
+    height: 6.24px;
+    border-radius: 15px;
+    transition: 0.7s;
+}
+.high04.active {
+    transform: translateX(12px) translateY(9px) rotate(45deg);
+    width: 20px;
+}
+.mid04 {
+    background-color: #dd9292;
+    width: 39.24px;
+    height: 6.24px;
+    border-radius: 15px;
+    transition: 0.7s;
+}
+.mid04.active {
+    width: 30px;
+    transform: rotate(180deg);
+}
+.low04 {
+    background-color: #dd9292;
+    width: 39.24px;
+    height: 6.24px;
+    border-radius: 15px;
+    transition: 0.7s;
+}
+.low04.active {
+    transform: translateX(12px) translateY(-9px) rotate(-45deg);
+    width: 20px;
+}
+.save04 {
+    width: 118px;
+    height: 50px;
+    background-color: #dd9292;
+    grid-column: 2/ 3;
+    grid-row: 3/ 4;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 2px 2px 2px #c4c4c4;
+    cursor: pointer;
+}
+.vaseCon04 {
+    width: 228px;
+    height: 600px;
+    grid-column: 2/ 3;
+    grid-row: 2/ 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 10px;
+}
+.who04 {
+    color: #5e452a;
+    margin-bottom: 20px;
+}
+.menu04 {
+    width: 300px;
+    height: 796px;
+    background-color: #fff9f4;
+    grid-column: 4;
+    grid-row: 1/ 4;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 80px repeat(9, 70px);
+    grid-auto-flow: column;
+    align-items: center;
+    justify-items: center;
+    transition: 0.7s;
+}
+
+.menu04.active {
+    transform: translateX(-300px);
+    box-shadow: -3px -1px #dfaeac;
+}
+
+.mHeader04 {
+    width: 280px;
+    height: 80px;
+    grid-row: 1/ 2;
+    border-bottom: 1px solid rgb(229, 229, 229);
+}
+.mFooter04 {
+    width: 280px;
+    height: 80px;
+    grid-row: 11;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    border-top: 1px solid rgb(229, 229, 229);
+}
+.content04 {
+    width: 300px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.profile04 {
+    width: 50px;
+    height: 50px;
+    background-color: #dd9292;
+    border-radius: 30px;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.head04 {
+    width: 15px;
+    height: 15px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+.body04 {
+    width: 30px;
+    height: 25px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+.name04 {
+    color: #5e452a;
+    font-weight: 600;
+}
+.loginBtn04 {
+    width: 63px;
+    height: 25px;
+    background-color: #c9986b;
+    font-size: 10px;
+    color: #5e452a;
+    margin-left: 60px;
+    padding: 0;
+    border: none;
+    border-radius: 5px;
+}
+.infoBtn04 {
+    width: 28px;
+    height: 28px;
+    background-color: #5e452a;
+    /* background-image: url('/src/views/img/list_icon.png'); */
+    border-radius: 14px;
+    overflow: hidden;
+}
+/* #listImg04 {
+    width: 28px;
+    height: 28px;
+} */
+.whoBtn04 {
+    width: 28px;
+    height: 28px;
+    background-color: #5e452a;
+    border-radius: 14px;
+    margin-right: 20px;
+    overflow: hidden;
+}
+/* #questionImg04 {
+    width: 28px;
+    height: 28px;
+} */

@@ -1,0 +1,53 @@
+.background92 {
+    width: 368px;
+    height: 796px;
+    background-color: #e2b7b4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.modal92 {
+    width: 267px;
+    height: 266px;
+    background-color: #fff9f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 31px;
+    flex-direction: column;
+}
+.number92 {
+    font-family: 'round';
+}
+.close92:before,
+.close92:after {
+    position: absolute;
+    top: 30px;
+    right: 225px;
+    content: ' ';
+    height: 30px;
+    width: 5px;
+    background-color: #ffffff;
+    border-radius: 3px;
+}
+.close92:before {
+    transform: rotate(45deg);
+}
+.close92:after {
+    transform: rotate(-45deg);
+}
+.line92 {
+    width: 230px;
+    height: 2px;
+    background-color: #c9986b;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/* @font-face {
+  font-family: "round";
+  src: url('src/TmoneyRoundWindExtraBold.ttf');
+} */
+.line1 {
+    margin-top: 20px;
+}

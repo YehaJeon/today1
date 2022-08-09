@@ -1,0 +1,45 @@
+.background051 {
+    width: 368px;
+    height: 796px;
+    background-color: #fde7e2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.envelop051 {
+    width: 270px;
+    height: 147px;
+    background-color: #fff9f4;
+    border-radius: 20px;
+    box-shadow: 2px 3px 4px rgba(237, 198, 196, 0.8);
+    display: flex;
+    justify-content: center;
+}
+
+.line1051 {
+    width: 150px;
+    height: 5px;
+    background-color: #5e452a;
+    margin-top: 50px;
+    transform: rotate(30deg) translateX(13px);
+    border-radius: 5px;
+}
+
+.line2051 {
+    width: 150px;
+    height: 5px;
+    background-color: #5e452a;
+    margin-top: 50px;
+    transform: rotate(-30deg) translateX(-13px);
+    border-radius: 5px;
+}
+
+.to051 {
+    color: #5e452a;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 20px;
+}

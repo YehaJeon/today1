@@ -1,0 +1,49 @@
+.background71 {
+    width: 368px;
+    height: 796px;
+    background-color: #fde7e2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.modal71 {
+    width: 342px;
+    height: 771px;
+    background-color: #fff9f4;
+    position: relative;
+    /* top: ; */
+    border-radius: 26px;
+}
+
+.hamburger71 {
+    grid-column: 3/ 4;
+    grid-row: 1/ 2;
+    height: 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 280px;
+}
+
+.high71 {
+    background-color: #dd9292;
+    width: 39.24px;
+    height: 6.24px;
+    border-radius: 5px;
+}
+
+.mid71 {
+    background-color: #dd9292;
+    width: 39.24px;
+    height: 6.24px;
+    border-radius: 5px;
+}
+
+.low71 {
+    background-color: #dd9292;
+    width: 39.24px;
+    height: 6.24px;
+    border-radius: 5px;
+}
